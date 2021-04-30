@@ -1,0 +1,135 @@
+/* 
+    Document   : name
+    Created on : Jul 8, 2014, 12:29:01 AM
+    Author     : Alphonce
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+  font: 0.8 em Arial, sans-serif;
+}
+h1, ul {
+ margin: 0;
+ padding: 0;
+}
+/* this is the largest wrapper 
+containing all other container */
+#wrap {
+ background: #fff;
+ width: 940px;
+ padding: 0px 10px;
+ margin: 0 auto;
+}
+/* this is the header container */
+#header {
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+ background: rgb(126, 115, 102);
+ border-bottom: 1px dotted #000;
+ min-height: 90px;
+}
+/* this is the logo container */
+#logo{
+ margin-left: 30px;
+ padding-top: 15px;
+ }
+/* this is the container of navigation */
+#menu {
+ min-height: 25px;
+ padding-top: 5px;
+ padding-bottom: 10px;
+ background: rgba(238, 197, 145, 1);
+ border-bottom: 1px dotted #000;
+}
+/* this is the navigation part */
+#menu ul{
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+ }
+#menu ul li{
+  margin-left: 10px;
+  background:rgba(238, 197, 145, 1);
+  float: left;
+}
+#menu ul li a{
+ display: block;
+ padding: 5px 10px;
+ color: #000;
+ text-decoration: none;
+}
+#menu ul li a:hover{
+ background: blue;
+ color: #fff;
+ -webkit-border--radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+#menu ul li ul li{
+ float: none;
+ }
+#menu ul li ul{
+ position: absolute;
+ display: none;
+ }
+#menu ul li:hover ul{
+ display: block;
+ }
+/* this is the main wrapper containig the 
+"content" and "side" wrapper */
+#main {
+ background: rgba(230, 230, 250, 1)
+}
+/* this is the content area part */
+#content {
+ background: rgba(248, 248, 255, 1);
+ float: left;
+ width: 660px;
+ padding: 20px;
+ min-height: 200px;
+ border-right: 1px solid #aaa;
+}
+
+#content h1{
+ font-size: 1.6em;
+}
+/* this is the right sidebar part */
+#side {
+ float: right;
+ width: 219px;
+ padding: 10px;
+}
+#side table td{
+    border: 1px #ED9121 solid;
+    background-color: #EEC591;
+    width:15em;
+}
+td a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+td li{
+    list-style-type: none;
+}
+td li:hover{
+    background-color:#607B8B;
+}
+td li:active{
+    background-color: yellowgreen;
+}
+/*this clear class is for special purpose. 
+this is for to clear the "float property" 
+of the previous element, it will prevent 
+footer to float */
+
+.clear{
+ clear: both;
+}
+/* this is the footer part */
+#footer{
+ background: rgba(96,123,139, 1);
+ color: #fff;
+ padding: 10px;
+}

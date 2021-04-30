@@ -1,0 +1,77 @@
+/* 
+    Document   : login
+    Created on : Jul 15, 2014, 10:03:31 PM
+    Author     : Alphonce
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+    Document   : name
+    Created on : Jul 8, 2014, 12:29:01 AM
+    Author     : Alphonce
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+  font: 0.8 em Arial, sans-serif;
+}
+h1, ul {
+ margin: 0;
+ padding: 0;
+}
+/* this is the largest wrapper 
+containing all other container */
+#wrap {
+ background: #fff;
+ width: 440px;
+ padding: 0px 10px;
+ /*margin: 0 auto;*/
+ margin-top: 10%;
+ margin-left: 30%;
+}
+/* this is the header container */
+#header {
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+ background: rgb(126, 115, 102);
+ border-bottom: 1px dotted #000;
+ min-height: 50px;
+}
+/* this is the logo container */
+#logo{
+ margin-left: 30px;
+ padding-top: 15px;
+ }
+
+/* this is the main wrapper containig the 
+"content" and "side" wrapper */
+
+#content {
+ background: rgba(248, 248, 255, 1);
+ float: left;
+ width: 400px;
+ padding: 20px;
+ min-height: 150px;
+ /*border-right: 1px solid #aaa;*/
+}
+
+#content h1{
+ font-size: 1.6em;
+}
+
+/*this clear class is for special purpose. 
+this is for to clear the "float property" 
+of the previous element, it will prevent 
+footer to float */
+
+.clear{
+ clear: both;
+}
+/* this is the footer part */
+#footer{
+ background: rgba(96,123,139, 1);
+ color: #fff;
+ padding: 10px;
+}
